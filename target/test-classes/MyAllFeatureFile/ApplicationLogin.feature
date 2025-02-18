@@ -1,6 +1,6 @@
 Feature: This is login feature
 
-
+@Smoke
 Scenario: Verify user can Login
 
 Given Launch "<URL>" Application 

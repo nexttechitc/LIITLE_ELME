@@ -9,7 +9,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features = {"src/test/resources/MyAllFeatureFile"},
 plugin = {"json:target/cucumber.json"},
-glue = "ApplicationStepDeffination")//,//tags = {"@JahanTest"})
+glue = "ApplicationStepDeffination",tags = {"@Smoke"})
 public class Application_Test_Runner extends AbstractTestNGCucumberTests{
 	
 	@BeforeTest
