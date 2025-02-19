@@ -1,6 +1,6 @@
 Feature: This feature for user registration functionality
 
-
+@Smoke
 Scenario: Verify user registration
 
 Given Launch "<URL>" Application
